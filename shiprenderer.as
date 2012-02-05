@@ -189,6 +189,7 @@ package
 	    }
 	    else
 	    {
+		fpsTf.text = "stage 3d is not available";
 		trace("stage 3d is not available");
 	    }
 	}
@@ -221,6 +222,7 @@ package
 
 	    if (context3D == null)
 	    {
+		fpsTf.text = "context 3D is null";
 		return;
 	    }
 
