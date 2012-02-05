@@ -188,7 +188,7 @@ package
 		stage.stage3Ds[0].requestContext3D();
 	    }
 	    else
-	    {
+	    {		
 		fpsTf.text = "stage 3d is not available";
 		trace("stage 3d is not available");
 	    }
@@ -546,7 +546,7 @@ package
 
 	private function onStage3DError(e:Event):void
 	{
-
+	    fpsTf.text = "stage 3d error";
 	}
 
 	public function uploadTextureWithMipmaps(dest:Texture, src:BitmapData):void
